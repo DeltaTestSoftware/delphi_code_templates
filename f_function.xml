@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate xmlns="http://schemas.borland.com/Delphi/2005/codetemplates" version="1.0.0">
+	<template name="f" invoke="manual">
+		<code language="Delphi" delimiter="|"><![CDATA[
+function |end|
+]]></code>
+	</template>
+</codetemplate>

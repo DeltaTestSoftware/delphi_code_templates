@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate xmlns="http://schemas.borland.com/Delphi/2005/codetemplates" version="1.0.0">
+	<template name="fin" invoke="manual">
+		<point name="item"/>
+		<point name="collection"/>
+		<code language="Delphi" delimiter="|"><![CDATA[
+for var |item| in |collection| do
+  |end|
+]]></code>
+	</template>
+</codetemplate>
