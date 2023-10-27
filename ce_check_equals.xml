@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<codetemplate xmlns="http://schemas.borland.com/Delphi/2005/codetemplates" version="1.0.0">
+	<template name="ce" invoke="manual">
+		<point name="expected"/>
+		<point name="actual"/>
+		<code language="Delphi" delimiter="|"><![CDATA[
+CheckEquals(|expected|, |actual|);|end|
+]]></code>
+	</template>
+</codetemplate>
+
